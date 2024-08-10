@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "camellia-xiaomi",
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "branch": "camellia-r-oss",
+      "device": "camellia"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -25,7 +25,8 @@
       "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
       "AR": "",
-      "CC": "clang"
+      "CC": "clang",
+        "ARCH_MTK_PLATFORM":"mt6883"
     }
   }
 ]
